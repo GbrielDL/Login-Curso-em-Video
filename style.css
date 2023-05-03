@@ -128,9 +128,10 @@ aside a:hover {
     margin: -402px 0 0 800px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
+    
     header img {
-        width: 270px;
+        width: 200px;
         padding-bottom: 15px;
     }
     #fotodealuna {
@@ -152,36 +153,6 @@ aside a:hover {
     }
     #enviar {
         width: 240px;
-    }
-}
-
-@media screen and (max-width: 286px) {
-    header img {
-        width: 170px;
-        padding-bottom: 15px;
-    }
-    #fotodealuna {
-        width: 0px;
-        margin: 0;
-    }
-    header nav {
-        margin: 0;
-        width: 0;
-        height: 0;
-        opacity: 0%;
-    }
-    main {
-        margin: auto;
-        width: 230px;
-    }
-    input {
-        width: 152px;
-    }
-    #enviar {
-        width: 170px;
-    }
-    aside {
-        font-size: 13px;
     }
 }
 
